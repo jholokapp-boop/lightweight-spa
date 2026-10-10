@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LightFlow</title>
+    <meta
+      name="description"
+      content="A lightweight single-page web app with a clean, fast, modern interface."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-grid"></div>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand" aria-label="LightFlow home">
+          <span class="brand-mark">L</span>
+          <span>LightFlow</span>
+        </div>
+
+        <div class="nav-links" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <button class="nav-button">Get Started</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <span class="eyebrow">Fast. Simple. Efficient.</span>
+          <h1>Build better experiences with less friction.</h1>
+          <p>
+            A minimal but powerful single-page web app designed for speed,
+            clarity, and outstanding usability on every device.
+          </p>
+
+          <div class="hero-actions">
+            <button class="primary">Launch App</button>
+            <button class="secondary">Learn More</button>
+          </div>
+
+          <ul class="hero-metrics" aria-label="Key metrics">
+            <li><strong>4x</strong><span>Faster load</span></li>
+            <li><strong>99.9%</strong><span>Uptime</span></li>
+            <li><strong>24/7</strong><span>Availability</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-label="Product preview">
+          <div class="mock-window">
+            <div class="window-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="window-content">
+              <div class="stat-card main-stat">
+                <small>Performance</small>
+                <strong>92%</strong>
+                <span>Avg. efficiency</span>
+              </div>
+
+              <div class="mini-grid">
+                <div class="mini-card accent">
+                  <span>Traffic</span>
+                  <strong>+18.2%</strong>
+                </div>
+                <div class="mini-card">
+                  <span>Users</span>
+                  <strong>12.4k</strong>
+                </div>
+              </div>
+
+              <div class="chart-bars" aria-hidden="true">
+                <span style="height: 28%"></span>
+                <span style="height: 48%"></span>
+                <span style="height: 62%"></span>
+                <span style="height: 58%"></span>
+                <span style="height: 72%"></span>
+                <span style="height: 95%"></span>
+                <span style="height: 80%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features container">
+        <div class="section-heading">
+          <span class="eyebrow">Features</span>
+          <h2>Everything you need, without the clutter.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon">⚡</div>
+            <h3>Ultra Fast</h3>
+            <p>Optimized for quick loading and smooth interactions.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">🛡️</div>
+            <h3>Reliable</h3>
+            <p>Built with stable structure and simple, dependable logic.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">📱</div>
+            <h3>Responsive</h3>
+            <p>Looks polished on mobile, tablet, laptop, and desktop.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="info-band">
+        <div class="container info-content">
+          <div>
+            <span class="eyebrow">Why it works</span>
+            <h2>A clean system that helps users focus.</h2>
+          </div>
+          <p>
+            LightFlow keeps design focused, removes unnecessary heaviness, and
+            makes the experience feel effortless from the first click.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="cta container">
+        <div class="cta-box">
+          <div>
+            <span class="eyebrow">Ready to move faster?</span>
+            <h2>Launch your next idea with less weight.</h2>
+          </div>
+          <button class="primary">Start Today</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <span>© 2026 LightFlow</span>
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
